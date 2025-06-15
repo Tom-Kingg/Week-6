@@ -18,8 +18,8 @@ st.title("Timelytics: Predict Order-to-Delivery Time")
 st.caption("Forecast delivery days using real e-commerce data and machine learning ensemble techniques (XGBoost + Random Forest + SVR).")
 
 # Set Kaggle API credentials (use secrets in deployment)
-os.environ['KAGGLE_USERNAME'] = "your_username"  # 🔁 Replace with your Kaggle username
-os.environ['KAGGLE_KEY'] = "your_key"            # 🔁 Replace with your Kaggle API key
+os.environ['KAGGLE_USERNAME'] = 'rajchakravarti'  # 🔁 Replace with your Kaggle username
+os.environ['KAGGLE_KEY'] = 'd2c46cc95a67732368e23fde9279ee6d'            # 🔁 Replace with your Kaggle API key
 
 # Download and extract Kaggle dataset (only once)
 @st.cache_resource
